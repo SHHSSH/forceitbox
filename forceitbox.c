@@ -218,8 +218,8 @@ main( int argc, char **argv )
 	size_t genSalt = start_time;
 	unsigned char found_hash[20];
 	double found_pick;
-	benchmark_t bench;
-	benchmark_start(&bench);
+	//benchmark_t bench;
+	//benchmark_start(&bench);
 	for( size_t genSalt2 = genSalt2_start; genSalt2 <= genSalt2_end; genSalt2++ )
 	{
 		if( bruteforcer(genSalt, genSalt2, search_hash, found_hash, &found_pick) )
@@ -230,7 +230,7 @@ main( int argc, char **argv )
 			printf("FOUND %s %.2f\n", proof_hex, found_pick);
 			exit(0);
 		}
-		benchmark_tick(&bench);
+		//benchmark_tick(&bench);
 	}
 	exit(1);
 }
