@@ -80,4 +80,10 @@ Now the work will be split into random chunks, shuffled and fed to all available
  * http://www.bitcoinshowers.com/playbtcgame/
  * http://bitcoinfaucetdice.com/
 
+## Beer Money
+
+Because it's not extortion or gained through unfair means... 
+
+ `bitcoin:18B4X5Pyn83QoJUFZjCZLd3bWd4RWcrM88`
+
 
